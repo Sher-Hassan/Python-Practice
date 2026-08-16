@@ -87,3 +87,59 @@
 # 1 2 
 
 # 1 
+
+# for x in range(0, 5):
+#     print("\n")
+#     for y in range(4-x):
+#         print(" ", end=" ")
+#     for y in range(x*2+1):
+#         print("*", end=" ")
+#     for y in range(4-x):
+#             print(" ", end=" ")
+
+#         *         
+
+#       * * *       
+
+#     * * * * *     
+
+#   * * * * * * *   
+
+# * * * * * * * * * 
+
+# for x in range(0, 5):
+#     print("\n")
+#     for y in range(4-x):
+#         print(" ", end=" ")
+#     for y in range(x*2+1):
+#         print("*", end=" ")
+#     for y in range(4-x):
+#         print(" ", end=" ")
+# for x in range(0, 5):
+#     print("\n")
+#     for y in range(x):
+#         print(" ", end=" ")
+#     for y in range(9-x*2):
+#          print("*", end=" ")
+#     for y in range(x):
+#             print(" ", end=" ")
+
+#         *         
+
+#       * * *       
+
+#     * * * * *     
+
+#   * * * * * * *   
+
+# * * * * * * * * * 
+
+# * * * * * * * * * 
+
+#   * * * * * * *   
+
+#     * * * * *     
+
+#       * * *       
+
+#         *       
