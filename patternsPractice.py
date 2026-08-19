@@ -219,3 +219,64 @@
 # 7 8 9 10 
 
 # 11 12 13 14 15 
+
+# for x in range(5, 0, -1):
+#     print("\n")
+#     for y in range(ord('A'), ord('A')+x):
+#         print(chr(y), end=" ")
+# A B C D E 
+
+# A B C D 
+
+# A B C 
+
+# A B 
+
+# A 
+
+# for x in range(ord("A"), ord("E")+1):
+#     print("\n")
+#     for y in range((x-(ord("A")-1))):
+#         print(chr(x), end=" ")
+# A 
+
+# B B 
+
+# C C C 
+
+# D D D D 
+
+# E E E E E 
+
+# for x in range(0, 4):
+#     print("\n")
+#     for y in range(4-x):
+#         print(" ", end=" ")
+#     for y in range(ord('A'), ord('A')+x+1):
+#         print(chr(y), end=" ")
+#     for y in range(ord('A')+x, ord('A'), -1):
+#         print(chr(y-1), end=" ")
+
+#         A 
+
+#       A B A 
+
+#     A B C B A 
+
+#   A B C D C B A 
+
+
+# for x in range(5):
+#     print("\n")
+#     for y in range(ord('E')-x, ord('F')):
+#         print(chr(y), end=" ")
+
+# E 
+
+# D E 
+
+# C D E 
+
+# B C D E 
+
+# A B C D E 
