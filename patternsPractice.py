@@ -280,3 +280,40 @@
 # B C D E 
 
 # A B C D E 
+
+# for x in range(0, 5):
+#     print("\n")
+#     for y in range(5-x):
+#         print("*", end=" ")
+#     for y in range(2*x):
+#         print(" ", end=" ")
+#     for y in range(5-x):
+#         print("*", end=" ")
+# for x in range(1, 6):
+#     print("\n")
+#     for y in range(x):
+#         print("*", end=" ")
+#     for y in range(2*(5-x)):
+#         print(" ", end=" ")
+#     for y in range(x):
+#         print("*", end=" ")
+
+# * * * * * * * * * * 
+
+# * * * *     * * * * 
+
+# * * *         * * * 
+
+# * *             * * 
+
+# *                 * 
+
+# *                 * 
+
+# * *             * * 
+
+# * * *         * * * 
+
+# * * * *     * * * * 
+
+# * * * * * * * * * * 
