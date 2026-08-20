@@ -318,3 +318,66 @@
 
 # * * * * * * * * * * 
 
+# for x in range(1, 6):
+#     print("\n")
+#     for y in range(x):
+#         print("*", end=" ")
+#     for y in range(2*(5-x)):
+#         print(" ", end=" ")
+#     for y in range(x):
+#         print("*", end=" ")
+# for x in range(1, 6):
+#     print("\n")
+#     for y in range(5-x):
+#         print("*", end=" ")
+#     for y in range(2*x):
+#         print(" ", end=" ")
+#     for y in range(5-x):
+#         print("*", end=" ")
+
+# *                 * 
+
+# * *             * * 
+
+# * * *         * * * 
+
+# * * * *     * * * * 
+
+# * * * * * * * * * * 
+
+# * * * *     * * * * 
+
+# * * *         * * * 
+
+# * *             * * 
+
+# *                 * 
+
+# for x in range(4):
+#     print("\n")
+#     for y in range(4):
+#         if x == 0 or x == 3 or y == 0 or y == 3:
+#             print("*", end=" ")
+#         else:
+#             print(" ", end=" ")
+# * * * * 
+
+# *     * 
+
+# *     * 
+
+# * * * * 
+
+# for x in range(7):
+#     print("\n")
+#     for y in range(7):
+#         number = max(abs(x - 3), abs(y - 3)) + 1
+#         print(number, end=" ")
+
+# 4 4 4 4 4 4 4
+# 4 3 3 3 3 3 4
+# 4 3 2 2 2 3 4
+# 4 3 2 1 2 3 4
+# 4 3 2 2 2 3 4
+# 4 3 3 3 3 3 4
+# 4 4 4 4 4 4 4
